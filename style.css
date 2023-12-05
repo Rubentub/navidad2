@@ -1,0 +1,135 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff2c8;
+}
+.container {
+    width: 380px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.container *:before,
+.container *:after {
+    position: absolute;
+    content: "";
+}
+.santa {
+    height: 220px;
+    width: 200px;
+    background-color: #e84701;
+    border-radius: 80px;
+    position: absolute;
+    left: 115px;
+    top: 200px;
+}
+.santa:before,
+.santa:after {
+    width: 40px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    background-color: #fff2c8;
+}
+.santa:before {
+    height: 130px;
+}
+.santa:after {
+    height: 40px;
+    bottom: -15px;
+}
+.hand-l{
+    background-color: #e84701;
+    height: 90px;
+    width: 105px;
+    position: absolute;
+    right: -30px;
+    top: 20px;
+    border-radius: 0 80px 0 0;
+}
+.hand-l:before {
+    margin: auto;
+    width: 35px;
+    height: 15px;
+    background-color: #ffffff;
+    top: 85px;
+    left: 71px;
+}
+.hand-l:after {
+    height: 15px;
+    width: 30px;
+    background-color: #fad2af;
+    left: 74px;
+    top: 101px;
+    border-radius: 0 0 30px 30px;
+}
+.hand-r {
+    height: 150px;
+    width: 180px;
+    border: 30px solid transparent;
+    border-bottom: 40px solid #e84701;
+    position: absolute;
+    left: -100px;
+    bottom: 150px;
+    border-radius: 50%;
+}
+.hand-r:before{
+    width: 35px;
+    height: 15px;
+    background-color: #ffffff;
+    transform: rotate(-50deg);
+    top: 68px;
+    left: -22px;
+}
+.hand-r:after {
+    width: 30px;
+    height: 15px;
+    background-color: #fad2af;
+    transform: rotate(-50deg);
+    left: -31px;
+    top: 58px;
+    border-radius: 15px 15px 0 0;
+}
+.face{
+    position: absolute;
+    margin: auto;
+    height: 180px;
+    width: 180px;
+    background-color: #fad2af;
+    border: 25px solid #f2e6da;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    bottom: 140px;
+}
+.beard {
+    position: absolute;
+    height: 90px;
+    width: 180px;
+    background-color: #ffffff;
+    border-radius: 0 0 90px 90px;
+    right: -25px;
+    bottom: -25px;
+}
+.beard:before{
+    width: 55px;
+    height: 25px;
+    background-color: #f2e6da;
+    border-radius: 20px 0;
+    left: 34px;
+}
+.beard:after{
+    height: 25px;
+    width: 55px;
+    background-color: #f2e6da;
+    border-radius: 0 20px;
+    right: 34px;
+}
