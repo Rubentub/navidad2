@@ -25,7 +25,7 @@ body {
 .santa {
     height: 220px;
     width: 200px;
-    background-color: #e84701;
+    background-color: #ec1e17;
     border-radius: 80px;
     position: absolute;
     left: 115px;
@@ -47,7 +47,7 @@ body {
     bottom: -15px;
 }
 .mano-l{
-    background-color: #e84701;
+    background-color: #ec1e17;
     height: 90px;
     width: 105px;
     position: absolute;
@@ -75,7 +75,7 @@ body {
     height: 150px;
     width: 180px;
     border: 30px solid transparent;
-    border-bottom: 40px solid #e84701;
+    border-bottom: 40px solid #ec1e17;
     position: absolute;
     left: -100px;
     bottom: 150px;
@@ -120,7 +120,7 @@ body {
     bottom: -25px;
 }
 .barba:before{
-    width: 55px;
+    width: 60px;
     height: 25px;
     background-color: #f2e6da;
     border-radius: 20px 0;
@@ -128,7 +128,7 @@ body {
 }
 .barba:after{
     height: 25px;
-    width: 55px;
+    width: 60px;
     background-color: #f2e6da;
     border-radius: 0 20px;
     right: 34px;
@@ -136,12 +136,12 @@ body {
 .ojos {
     height: 12px;
     width: 12px;
-    background-color: #0078ca;
+    background-color: #35ec1c;
     border-radius: 50%;
     position: absolute;
     top: 40px;
     left: 40px;
-    box-shadow:  38px 0 #0078ca, 19px 20px #f69697;
+    box-shadow:  38px 0 #35ec1c, 19px 20px #d30b0e;
 }
 .ojos:before {
     height: 12px;
@@ -158,4 +158,9 @@ body {
     border-radius: 0 10px;
     left: 32px;
     bottom: 20px;
+}
+.sombrero {
+    position: absolute;
+    height: 60px;
+    width: 120px;
 }
