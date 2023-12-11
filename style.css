@@ -46,7 +46,7 @@ body {
     height: 40px;
     bottom: -15px;
 }
-.hand-l{
+.mano-l{
     background-color: #e84701;
     height: 90px;
     width: 105px;
@@ -55,7 +55,7 @@ body {
     top: 20px;
     border-radius: 0 80px 0 0;
 }
-.hand-l:before {
+.mano-l:before {
     margin: auto;
     width: 35px;
     height: 15px;
@@ -63,7 +63,7 @@ body {
     top: 85px;
     left: 71px;
 }
-.hand-l:after {
+.mano-l:after {
     height: 15px;
     width: 30px;
     background-color: #fad2af;
@@ -71,7 +71,7 @@ body {
     top: 101px;
     border-radius: 0 0 30px 30px;
 }
-.hand-r {
+.mano-r {
     height: 150px;
     width: 180px;
     border: 30px solid transparent;
@@ -81,7 +81,7 @@ body {
     bottom: 150px;
     border-radius: 50%;
 }
-.hand-r:before{
+.mano-r:before{
     width: 35px;
     height: 15px;
     background-color: #ffffff;
@@ -89,7 +89,7 @@ body {
     top: 68px;
     left: -22px;
 }
-.hand-r:after {
+.mano-r:after {
     width: 30px;
     height: 15px;
     background-color: #fad2af;
@@ -98,7 +98,7 @@ body {
     top: 58px;
     border-radius: 15px 15px 0 0;
 }
-.face{
+.cara{
     position: absolute;
     margin: auto;
     height: 180px;
@@ -110,7 +110,7 @@ body {
     right: 0;
     bottom: 140px;
 }
-.beard {
+.barba {
     position: absolute;
     height: 90px;
     width: 180px;
@@ -119,17 +119,43 @@ body {
     right: -25px;
     bottom: -25px;
 }
-.beard:before{
+.barba:before{
     width: 55px;
     height: 25px;
     background-color: #f2e6da;
     border-radius: 20px 0;
     left: 34px;
 }
-.beard:after{
+.barba:after{
     height: 25px;
     width: 55px;
     background-color: #f2e6da;
     border-radius: 0 20px;
     right: 34px;
+}
+.ojos {
+    height: 12px;
+    width: 12px;
+    background-color: #0078ca;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    box-shadow:  38px 0 #0078ca, 19px 20px #f69697;
+}
+.ojos:before {
+    height: 12px;
+    width: 25px;
+    background-color: #ffffff;
+    border-radius: 10px 0;
+    left: -10px;
+    bottom: 20px;
+}
+.ojos:after {
+    height: 12px;
+    width: 25px;
+    background-color: #ffffff;
+    border-radius: 0 10px;
+    left: 32px;
+    bottom: 20px;
 }
